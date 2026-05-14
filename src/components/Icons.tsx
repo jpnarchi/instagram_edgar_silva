@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react';
 
-type IconProps = SVGProps<SVGSVGElement> & {
+type IconProps = Omit<SVGProps<SVGSVGElement>, 'size'> & {
   filled?: boolean;
   size?: number;
 };
@@ -165,7 +165,7 @@ export const TaggedIcon = ({ size = 12, ...p }: IconProps) => (
   </svg>
 );
 
-export const VerifiedBadge = ({ size = 18, ...p }: SVGProps<SVGSVGElement>) => (
+export const VerifiedBadge = ({ size = 18, ...p }: IconProps) => (
   <svg width={size} height={size} viewBox="0 0 40 40" {...p}>
     <path
       fill="#0095f6"

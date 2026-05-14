@@ -1,3 +1,4 @@
+import type { ComponentType } from 'react';
 import {
   HomeIcon,
   SearchIcon,
@@ -15,7 +16,7 @@ import { profile } from '../data';
 type NavItem = {
   key: string;
   label: string;
-  icon: (props: { filled?: boolean; size?: number }) => JSX.Element;
+  icon: ComponentType<{ filled?: boolean; size?: number }>;
 };
 
 const items: NavItem[] = [
