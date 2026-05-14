@@ -2,7 +2,6 @@ import { useEffect, useMemo, useState } from 'react';
 import { Sidebar } from './components/Sidebar';
 import { TopBar } from './components/TopBar';
 import { ProfileHeader } from './components/ProfileHeader';
-import { Highlights } from './components/Highlights';
 import { TabsAndGrid } from './components/TabsAndGrid';
 import { PostModal } from './components/PostModal';
 import { posts } from './data';
@@ -42,7 +41,6 @@ export default function App() {
 
       <main className="md:ml-[72px] xl:ml-[244px] max-w-[975px] mx-auto pb-16">
         <ProfileHeader />
-        <Highlights />
         <TabsAndGrid onOpen={(p) => setOpenId(p.id)} />
       </main>
 
