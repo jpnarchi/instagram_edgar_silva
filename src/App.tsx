@@ -130,10 +130,6 @@ const ProfileSm = ({ active }: { active?: boolean }) => (
       active ? 'ring-current' : 'ring-transparent'
     }`}
   >
-    <img
-      src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=64&h=64&fit=crop&crop=faces"
-      alt=""
-      className="h-full w-full object-cover"
-    />
+    <img src="/edgar-avatar.jpg" alt="" className="h-full w-full object-cover" />
   </span>
 );

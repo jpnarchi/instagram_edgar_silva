@@ -21,24 +21,22 @@ export type Post = {
 };
 
 export const profile = {
-  username: 'edgarsilva.art',
+  username: 'edgesilvame',
   fullName: 'Edgar Silva',
   pronouns: 'él/he',
   bio: [
     'Artista visual · Pintor contemporáneo',
     'Óleo, tinta y memoria · CDMX ⇄ Oaxaca',
-    'Próxima exposición: "Ruido Tenue" — Galería Kurimanzutto, junio',
-    '↓ portafolio + tienda',
+    'Próxima exposición: "Ruido Tenue" — junio',
+    '↓ portafolio + obra',
   ],
-  link: 'edgarsilva.art/obra',
-  posts: 247,
-  followers: '38.4K',
-  following: 412,
-  verified: true,
+  link: 'instagram.com/edgesilvame',
+  posts: 551,
+  followers: '1,816',
+  following: '4,858',
+  verified: false,
   category: 'Artista',
-  // Retrato de artista en estudio
-  avatar:
-    'https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=400&h=400&fit=crop&crop=faces',
+  avatar: '/edgar-avatar.jpg',
 };
 
 export const highlights = [
